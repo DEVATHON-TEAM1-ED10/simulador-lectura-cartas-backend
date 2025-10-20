@@ -1,0 +1,24 @@
+services:
+  api:
+    build: .
+    container_name: tarot_api
+    ports:
+      - "8000:8000"
+    environment:
+      # Si aún no usás DB, no pasa nada; esto queda listo para cuando la uses.
+      DATABASE_URL: "sqlite:////app/data/app.db"
+      CORS_ORIGINS: "http://localhost:5173"
+      PYTHONUNBUFFERED: "1"
+    volumes:
+      - .:/app:delegated         # hot-reload en desarrollo
+      - app_data:/app/data       # carpeta persistente para SQLite (cuando la uses)
+    command: >
+      uvicorn app.main:app
+      --host 0.0.0.0
+      --port 8000
+      --reload
+    # Opcional: reinicio automático si se cae
+    restart: unless-stopped
+
+volumes:
+  app_data:
