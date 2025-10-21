@@ -1,7 +1,6 @@
-from sqlalchemy.orm import declarative_base
 from sqlalchemy import Column, Integer, String
+from app.db.session import Base
 
-Base = declarative_base()
 
 class Card(Base):
     __tablename__ = "Card"
