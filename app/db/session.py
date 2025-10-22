@@ -8,13 +8,11 @@ Base = declarative_base()
 DATABASE_URL = "sqlite:///./dev.db"
 
 # Crear motor
-engine = create_engine(
-    DATABASE_URL,
-    connect_args={"check_same_thread": False}
-)
+engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 
 # Fábrica de sesiones
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+
 
 # Dependencia
 def get_db():
