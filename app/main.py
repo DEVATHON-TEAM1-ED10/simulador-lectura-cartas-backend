@@ -1,9 +1,10 @@
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api.routes import cards, predictions
+# ✅ importa directamente los routers, no el paquete
+from app.api.routes.cards import router as cards_router
+from app.api.routes.predictions import router as predictions_router  # si ya existe
 from app.db.seed import get_all_cards_in_db, seed_cards
-
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -29,5 +30,5 @@ def health():
 
 
 # 👇 Importante: enganchar rutas stub
-app.include_router(cards.router)
-app.include_router(predictions.router)
+app.include_router(cards_router)
+app.include_router(predictions_router)
