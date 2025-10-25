@@ -3,7 +3,7 @@ from typing import List, Optional
 
 class PredictionIn(BaseModel):
     # exactamente 3 IDs
-    card_ids: List[int] = Field(min_items=3, max_items=3)
+    card_ids: List[int] = Field(min_length=3, max_length=3)
     seed: Optional[int] = None
 
 class PredictionOut(BaseModel):
