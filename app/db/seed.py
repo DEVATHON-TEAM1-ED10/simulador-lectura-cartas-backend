@@ -30,9 +30,5 @@ def get_all_cards_in_db():
     results = db.query(Card).count()
     print("Las cartas son: ", results)
 
-    results = db.query(Card).all()
-    print("Las carta son: ", results)
-
-
 if __name__ == "__main__":
     seed_cards()
