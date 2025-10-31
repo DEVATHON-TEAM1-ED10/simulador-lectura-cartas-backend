@@ -1,0 +1,22 @@
+services:
+  api:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app:delegated         # hot-reload en desarrollo
+      - app_data:/app/data       # carpeta persistente para SQLite
+    environment:
+      DATABASE_URL: "sqlite:////app/data/app.db"
+      CORS_ORIGINS: "http://localhost:5173"
+      PYTHONUNBUFFERED: "1"
+    command: >
+      uvicorn app.main:app
+      --host 0.0.0.0
+      --port 8000
+      --reload
+    restart: unless-stopped
+
+volumes:
+  app_data:
