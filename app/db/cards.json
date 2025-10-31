@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "name": "Le Mat",
+    "meaning": "Representa el impulso de comenzar un viaje sin certezas. La búsqueda de libertad, pero también el riesgo de actuar sin rumbo.",
+    "image": "static/Le Mat.jpg",
+    "energy": 0
+  },
+  {
+    "id": 2,
+    "name": "Le Bateleur",
+    "meaning": "El inicio de algo nuevo. Simboliza creatividad, habilidad y confianza para manifestar ideas.",
+    "image": "static/Le Bateleur.jpg",
+    "energy": 2
+  },
+  {
+    "id": 3,
+    "name": "La Papesse",
+    "meaning": "Sabiduría interior, paciencia y observación. Invita a escuchar la intuición antes de actuar.",
+    "image": "static/La Papesse.jpg",
+    "energy": 1
+  },
+  {
+    "id": 4,
+    "name": "L'Impératrice",
+    "meaning": "Creatividad fértil, comunicación y expansión. Representa crecimiento y expresión equilibrada.",
+    "image": "static/L'Impératrice.jpg",
+    "energy": 2
+  },
+  {
+    "id": 5,
+    "name": "L'Empereur",
+    "meaning": "Estructura, autoridad y control. Simboliza estabilidad, pero también rigidez si se exagera.",
+    "image": "static/L'Empereur.jpg",
+    "energy": 1
+  },
+  {
+    "id": 6,
+    "name": "Le Pape",
+    "meaning": "Guía espiritual, tradición y aprendizaje. Indica apoyo moral o la búsqueda de sentido.",
+    "image": "static/Le Pape.jpg",
+    "energy": 1
+  },
+  {
+    "id": 7,
+    "name": "L'Amoureux",
+    "meaning": "Elección entre caminos. Simboliza el amor, la duda y la necesidad de decidir con el corazón.",
+    "image": "static/L'Amoureux.jpg",
+    "energy": 0
+  },
+  {
+    "id": 8,
+    "name": "Le Chariot",
+    "meaning": "Voluntad, movimiento y conquista. Indica avance decidido y dominio de las emociones.",
+    "image": "static/Le Chariot.jpg",
+    "energy": 2
+  },
+  {
+    "id": 9,
+    "name": "La Justice",
+    "meaning": "Equilibrio, verdad y responsabilidad. Invita a actuar con claridad y asumir consecuencias.",
+    "image": "static/La Justice.jpg",
+    "energy": 1
+  },
+  {
+    "id": 10,
+    "name": "L'Hermite",
+    "meaning": "Búsqueda interior, introspección y sabiduría adquirida con el tiempo.",
+    "image": "static/L'Hermite.jpg",
+    "energy": 0
+  },
+  {
+    "id": 11,
+    "name": "La Roue de Fortune",
+    "meaning": "Cambios inesperados. Simboliza el ciclo de la suerte y la adaptación al destino.",
+    "image": "static/La Roue de Fortune.jpg",
+    "energy": 0
+  },
+  {
+    "id": 12,
+    "name": "La Force",
+    "meaning": "Valor, autocontrol y perseverancia. Representa la fortaleza interior frente a los desafíos.",
+    "image": "static/La Force.jpg",
+    "energy": 2
+  },
+  {
+    "id": 13,
+    "name": "Le Pendu",
+    "meaning": "Pausa y cambio de perspectiva. Simboliza sacrificio o liberación de viejas formas de pensar.",
+    "image": "static/Le Pendu.jpg",
+    "energy": -1
+  },
+  {
+    "id": 14,
+    "name": "La Mort",
+    "meaning": "Transformación profunda y final de un ciclo. Representa cierre y renacimiento.",
+    "image": "static/La Mort.jpg",
+    "energy": -2
+  },
+  {
+    "id": 15,
+    "name": "Tempérance",
+    "meaning": "Armonía, paciencia y equilibrio emocional. Señala el fluir natural de los procesos.",
+    "image": "static/Tempérance.jpg",
+    "energy": 2
+  },
+  {
+    "id": 16,
+    "name": "Le Diable",
+    "meaning": "Deseos intensos, ataduras o excesos. Invita a reconocer las propias sombras.",
+    "image": "static/Le Diable.jpg",
+    "energy": -2
+  },
+  {
+    "id": 17,
+    "name": "La Maison Dieu",
+    "meaning": "Colapso de estructuras falsas. Crisis que libera y permite reconstruir con verdad.",
+    "image": "static/La Maison Dieu.jpg",
+    "energy": -1
+  },
+  {
+    "id": 18,
+    "name": "L'Étoile",
+    "meaning": "Esperanza, inspiración y renovación espiritual. Representa fe y conexión con lo divino.",
+    "image": "static/L'Étoile.jpg",
+    "energy": 2
+  },
+  {
+    "id": 19,
+    "name": "La Lune",
+    "meaning": "Incertidumbre, ilusiones y emociones profundas. Invita a navegar el inconsciente con cautela.",
+    "image": "static/La Lune.jpg",
+    "energy": -1
+  },
+  {
+    "id": 20,
+    "name": "Le Soleil",
+    "meaning": "Éxito, alegría y claridad. Representa vitalidad y realización plena.",
+    "image": "static/Le Soleil.jpg",
+    "energy": 2
+  },
+  {
+    "id": 21,
+    "name": "Le Jugement",
+    "meaning": "Renacimiento, revelación y perdón. Simboliza una nueva oportunidad o comprensión profunda.",
+    "image": "static/Le Jugement.jpg",
+    "energy": 1
+  },
+  {
+    "id": 22,
+    "name": "Le Monde",
+    "meaning": "Realización total, armonía y cierre exitoso de un ciclo. Indica plenitud y logro espiritual.",
+    "image": "static/Le Monde.jpg",
+    "energy": 2
+  }
+]
